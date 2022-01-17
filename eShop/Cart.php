@@ -67,6 +67,7 @@ class Cart {
                 return FALSE;
             }else{
                 /*
+		hello
                  * Insert Item
                  */
                 // prep the quantity

@@ -128,7 +128,7 @@ class Cart {
 				foreach(array_diff($keys, array('id', 'name')) as $key){
 					$this->cart_contents[$item['rowid']][$key] = $item[$key];
 				}
-				// save cart data
+				// save cart data 1
 				$this->save_cart();
 				return TRUE;
 			}
